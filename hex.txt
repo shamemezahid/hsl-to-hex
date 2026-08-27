@@ -1,0 +1,119 @@
+export const Avocado = {
+  50: "#F9FBE7",
+  100: "#F2F6CE",
+  200: "#E4ED9D",
+  400: "#C9DC3B",
+  600: "#96A908",
+  800: "#4B5404",
+  900: "#262A02",
+  dark: "#717F06",
+  light: "#D7E56C",
+  main: "#BCD30A",
+} as const satisfies SimplePaletteColorOptions;
+Md Parvez Al Mohidul, 13 min
+export const BrandBlue = {
+  50: "#F7FBFF",
+  100: "#EFF7FF",
+  200: "#DBECFE",
+  400: "#3B95F6",
+  600: "#034082",
+  800: "#034082",
+  900: "#034082",
+  dark: "#001B38",
+  light: "#93C6FD",
+  main: "#0062CC",
+} as const satisfies SimplePaletteColorOptions;
+
+/** Value ramp for palette.accent (secondary / channel accent). */
+export const BrandViolet = {
+  50: "#FAF9FF",
+  100: "#F5F3FF",
+  200: "#EDE9FE",
+  400: "#8B5CF6",
+  600: "#4C1D95",
+  800: "#4C1D95",
+  900: "#4C1D95",
+  dark: "#170C2A",
+  light: "#C4B5FD",
+  main: "#6D28D9",
+} as const satisfies SimplePaletteColorOptions;
+
+export const BrandNeutral = {
+  50: "#FCFCFC",
+  100: "#FAFAFA",
+  200: "#F5F5F5",
+  400: "#737373",
+  600: "#171717",
+  800: "#171717",
+  900: "#171717",
+  dark: "#060505",
+  light: "#D4D4D4",
+  main: "#404040",
+} as const satisfies SimplePaletteColorOptions;
+
+export const BrandEmerald = {
+  50: "#F5FEFA",
+  100: "#ECFDF5",
+  200: "#D1FAE5",
+  400: "#10B981",
+  600: "#064E3B",
+  800: "#064E3B",
+  900: "#064E3B",
+  dark: "#041612",
+  light: "#6EE7B7",
+  main: "#047857",
+} as const satisfies SimplePaletteColorOptions;
+
+export const BrandRose = {
+  50: "#FFF8F8",
+  100: "#FFF1F2",
+  200: "#FFE4E6",
+  400: "#F43F5E",
+  600: "#881337",
+  800: "#881337",
+  900: "#881337",
+  dark: "#24070F",
+  light: "#FDA4AF",
+  main: "#BE123C",
+} as const satisfies SimplePaletteColorOptions;
+
+export const BrandAmber = {
+  50: "#FFFDF5",
+  100: "#FFFBEB",
+  200: "#FEF3C7",
+  400: "#F59E0B",
+  600: "#78350F",
+  800: "#78350F",
+  900: "#78350F",
+  dark: "#241107",
+  light: "#FCD34D",
+  main: "#B45309",
+} as const satisfies SimplePaletteColorOptions;
+
+/** Value ramp for palette.chrome. */
+export const BrandGray = {
+  50: "#FCFCFD",
+  100: "#F9FAFB",
+  200: "#F3F4F6",
+  400: "#6B7280",
+  600: "#111827",
+  800: "#111827",
+  900: "#111827",
+  dark: "#030408",
+  light: "#D1D5DB",
+  main: "#374151",
+} as const satisfies SimplePaletteColorOptions;
+
+/** Value ramp for palette.subtle (also palette.surface.muted). */
+export const BrandSlate = {
+  50: "#FBFCFD",
+  100: "#F7FAFD",
+  200: "#EEF2F7",
+  400: "#64748B",
+  600: "#0F172A",
+  800: "#0F172A",
+  900: "#0F172A",
+  dark: "#070C19",
+  light: "#CBD5E1",
+  main: "#334155",
+} as const satisfies SimplePaletteColorOptions;
