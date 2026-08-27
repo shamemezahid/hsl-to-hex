@@ -1,0 +1,107 @@
+/* Value ramp for palette.primary */
+export const BrandBlue = {
+  50: "hsl(210deg 100% 98.43%)",
+  100: "hsl(210deg 100% 96.86%)",
+  200: "hsl(211deg 94.59% 92.75%)",
+  400: "hsl(211deg 91.22% 59.8%)",
+  600: "hsl(211.18deg 95.49% 26.08%)",
+  800: "hsl(211.18deg 95.49% 26.08%)",
+  900: "hsl(211.18deg 95.49% 26.08%)",
+  dark: "hsl(211.12deg 100% 11%)",
+  light: "hsl(211deg 96.36% 78.43%)",
+  main: "hsl(211.18deg 100% 40%)",
+} as const satisfies SimplePaletteColorOptions;
+
+/** Value ramp for palette.accent (secondary / channel accent). */
+export const BrandViolet = {
+  50: "hsl(250deg 100% 98.82%)",
+  100: "hsl(250deg 100% 97.65%)",
+  200: "hsl(251.43deg 91.3% 95.49%)",
+  400: "hsl(258.31deg 89.53% 66.27%)",
+  600: "hsl(263.5deg 67.42% 34.9%)",
+  800: "hsl(263.5deg 67.42% 34.9%)",
+  900: "hsl(263.5deg 67.42% 34.9%)",
+  dark: "hsl(262deg 55.56% 10.59%)",
+  light: "hsl(252.5deg 94.74% 85.1%)",
+  main: "hsl(263.39deg 69.96% 50.39%)",
+} as const satisfies SimplePaletteColorOptions;
+
+export const BrandNeutral = {
+  50: "hsl(0deg 0% 98.82%)",
+  100: "hsl(0deg 0% 98.04%)",
+  200: "hsl(0deg 0% 96.08%)",
+  400: "hsl(0deg 0% 45.1%)",
+  600: "hsl(0deg 0% 9.02%)",
+  800: "hsl(0deg 0% 9.02%)",
+  900: "hsl(0deg 0% 9.02%)",
+  dark: "hsl(0deg 9.09% 2.16%)",
+  light: "hsl(0deg 0% 83.14%)",
+  main: "hsl(0deg 0% 25.1%)",
+} as const satisfies SimplePaletteColorOptions;
+
+export const BrandEmerald = {
+  50: "hsl(153.33deg 81.82% 97.84%)",
+  100: "hsl(151.76deg 80.95% 95.88%)",
+  200: "hsl(149.27deg 80.39% 90%)",
+  400: "hsl(160.12deg 84.08% 39.41%)",
+  600: "hsl(164.17deg 85.71% 16.47%)",
+  800: "hsl(164.17deg 85.71% 16.47%)",
+  900: "hsl(164.17deg 85.71% 16.47%)",
+  dark: "hsl(166.67deg 69.23% 5.1%)",
+  light: "hsl(156.2deg 71.6% 66.86%)",
+  main: "hsl(162.93deg 93.55% 24.31%)",
+} as const satisfies SimplePaletteColorOptions;
+
+export const BrandRose = {
+  50: "hsl(0deg 100% 98.63%)",
+  100: "hsl(355.71deg 100% 97.25%)",
+  200: "hsl(355.56deg 100% 94.71%)",
+  400: "hsl(349.72deg 89.16% 60.2%)",
+  600: "hsl(341.54deg 75.48% 30.39%)",
+  800: "hsl(341.54deg 75.48% 30.39%)",
+  900: "hsl(341.54deg 75.48% 30.39%)",
+  dark: "hsl(343.45deg 67.44% 8.43%)",
+  light: "hsl(352.58deg 95.7% 81.76%)",
+  main: "hsl(345.35deg 82.69% 40.78%)",
+} as const satisfies SimplePaletteColorOptions;
+
+export const BrandAmber = {
+  50: "hsl(48deg 100% 98.04%)",
+  100: "hsl(48deg 100% 96.08%)",
+  200: "hsl(48deg 96.49% 88.82%)",
+  400: "hsl(37.69deg 92.13% 50.2%)",
+  600: "hsl(21.71deg 77.78% 26.47%)",
+  800: "hsl(21.71deg 77.78% 26.47%)",
+  900: "hsl(21.71deg 77.78% 26.47%)",
+  dark: "hsl(20.69deg 67.44% 8.43%)",
+  light: "hsl(45.94deg 96.69% 64.51%)",
+  main: "hsl(25.96deg 90.48% 37.06%)",
+} as const satisfies SimplePaletteColorOptions;
+
+/** Value ramp for palette.chrome. */
+export const BrandGray = {
+  50: "hsl(240deg 20% 99.02%)",
+  100: "hsl(210deg 20% 98.04%)",
+  200: "hsl(220deg 14.29% 95.88%)",
+  400: "hsl(220deg 8.94% 46.08%)",
+  600: "hsl(220.91deg 39.29% 10.98%)",
+  800: "hsl(220.91deg 39.29% 10.98%)",
+  900: "hsl(220.91deg 39.29% 10.98%)",
+  dark: "hsl(228deg 45.45% 2.16%)",
+  light: "hsl(216deg 12.5% 84%)",
+  main: "hsl(216.92deg 19.12% 26.67%)",
+} as const satisfies SimplePaletteColorOptions;
+
+/** Value ramp for palette.subtle (also palette.surface.muted). */
+export const BrandSlate = {
+  50: "hsl(210deg 33.33% 98.82%)",
+  100: "hsl(210deg 60% 98.04%)",
+  200: "hsl(213.33deg 36% 95.1%)",
+  400: "hsl(215.38deg 16.32% 46.86%)",
+  600: "hsl(222.22deg 47.37% 11.18%)",
+  800: "hsl(222.22deg 47.37% 11.18%)",
+  900: "hsl(222.22deg 47.37% 11.18%)",
+  dark: "hsl(223.33deg 56.25% 6.27%)",
+  light: "hsl(212.73deg 26.83% 83.92%)",
+  main: "hsl(215.29deg 25% 26.67%)",
+} as const satisfies SimplePaletteColorOptions;
